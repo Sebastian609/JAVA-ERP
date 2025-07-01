@@ -1,0 +1,40 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+*.iml
+.idea/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE config
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# Test output
+/test-output/
+
+# Others
+*.bak
+
+# Configuración sensible
+src/main/resources/hibernate.cfg.xml 
