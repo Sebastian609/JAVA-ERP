@@ -148,6 +148,19 @@ El proyecto está configurado para:
 - **Usuario**: root
 - **Contraseña**: (vacía por defecto)
 
+## Configuración de Hibernate
+
+El archivo de configuración real `src/main/resources/hibernate.cfg.xml` **no se incluye en el repositorio** por seguridad.
+
+Para configurar tu entorno local:
+1. Copia el archivo de ejemplo:
+   ```
+   cp src/main/resources/hibernate.cfg.example.xml src/main/resources/hibernate.cfg.xml
+   ```
+2. Edita `hibernate.cfg.xml` y coloca tus datos reales de conexión (usuario, contraseña, base de datos, etc).
+
+**Nunca subas tus credenciales reales al repositorio.**
+
 ## Configuración por Variables de Entorno
 
 Puedes configurar la conexión a la base de datos usando variables de entorno:
